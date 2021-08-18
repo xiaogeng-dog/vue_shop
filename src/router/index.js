@@ -32,6 +32,10 @@ const router = new Router({
         {
           path: '/roles',
           component: () => import('@/components/power/Roles')
+        },
+        {
+          path: '/categories',
+          component: () => import('@/components/goods/Category')
         }
       ]
     }

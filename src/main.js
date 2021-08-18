@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import axios from 'axios'
 import ElementUI from 'element-ui'
+import TreeTable from 'vue-table-with-tree-grid'
 import 'element-ui/lib/theme-chalk/index.css'
 //导入全局样式表
 import './assets/css/global.css'
@@ -10,6 +11,8 @@ import './assets/css/global.css'
 import './assets/fonts/iconfont.css'
 
 Vue.config.productionTip = false
+
+Vue.component('tree-table', TreeTable)
 
 Vue.use(ElementUI)
 

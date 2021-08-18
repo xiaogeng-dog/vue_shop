@@ -36,6 +36,10 @@ const router = new Router({
         {
           path: '/categories',
           component: () => import('@/components/goods/Category')
+        },
+        {
+          path: '/params',
+          component: () => import('@/components/goods/Params')
         }
       ]
     }

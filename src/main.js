@@ -5,6 +5,7 @@ import axios from 'axios'
 import ElementUI from 'element-ui'
 import TreeTable from 'vue-table-with-tree-grid'
 import 'element-ui/lib/theme-chalk/index.css'
+import * as echarts from 'echarts'
 //导入全局样式表
 import './assets/css/global.css'
 // 导入字体图标
@@ -15,6 +16,8 @@ import VueQuillEditor from 'vue-quill-editor'
 import 'quill/dist/quill.core.css'
 import 'quill/dist/quill.snow.css'
 import 'quill/dist/quill.bubble.css'
+//导入echarts
+Vue.prototype.$echarts = echarts
 
 Vue.config.productionTip = false
 
